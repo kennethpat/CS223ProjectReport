@@ -1,0 +1,11 @@
+# CS 223 Project Report
+This is a Project Report written by me and my teammates in CS 223: Transaction Processing and Distributed Data Management, taught by Prof. Faisal Nawab (nawabf@uci.edu) at the University of California, Irvine. 
+
+Note: This project report was first written for a university course. You are allowed to use it as a reference to construct your ideas and arguments for any type of writings. However, no part of this text may be stored, reproduced, or reposted elsewhere, in any form or by any means, without prior permission.
+
+# Abstract
+This project introduces an effective system for handling transactions in a widely spread airline ticketing application. Building upon existing transaction methods, we develop new ways to ensure smooth and fast operations in storage systems that are spread across different locations. The system focuses on three main areas: flights, tickets, and user information. It is carefully designed to process transactions in a way that avoids complications and improves efficiency. We’ve also implemented a smart strategy for storing data close to where users are, which speeds up response times and balances the workload throughout the network.
+
+The key aspect of our work is the custom-made method we’ve developed for the unique needs of airline ticketing systems. This method is crucial for maintaining a good balance between keeping data consistent and handling a large number of transactions efficiently. Our approach to distributing the data is also very important. It’s based on a deep understanding of how users are spread out geographically, ensuring that the data is stored as close as possible to where it’s needed.
+
+Our report goes into detail about every part of the system, from the initial stages of developing the application and its transaction processes to the strategic way we’ve distributed the data. We’ve thoroughly tested our system to measure its response times and efficiency under different conditions and workloads. These tests are vital for showing that our system can work well in real-life situations. In summary, this report not only explains the technical achievements of our transaction processing system but also highlights its potential to change the way distributed applications are used in the aviation industry and other areas.
